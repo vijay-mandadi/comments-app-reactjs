@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 2px 2px #475569;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+}
+
+.count {
+  color: white;
+  font-family: 'Bree Serif';
+  background-color: #0b69ff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 4px;
+  margin-right: 3px;
+}
+
+.comment-image {
+  height: 300px;
+  width: 450px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 1px solid #dee0e3;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 40px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  width: 300px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+textarea {
+  outline: none;
+  border: 1px solid #dee0e3;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #0284c7;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Roboto';
+  width: fit-content;
+  height: 35px;
+}
